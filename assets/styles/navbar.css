@@ -1,6 +1,7 @@
 .navbar{
     background-color: #ccc;
     box-shadow: 0 1.5px 0 0 #111;
+    font-weight: bold;
 }
 
 .user-navbar-logged a{

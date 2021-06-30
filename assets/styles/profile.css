@@ -1,0 +1,21 @@
+.edit-user{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+
+.edit-user:hover{
+    color: #ccc;
+    transition: all .2s;
+}
+
+.container{
+    background: white;
+    min-height: 100vh; 
+    min-width: 100%;
+}
+
+.card-profile-info{
+    background-color: #111;
+    color: white;
+}

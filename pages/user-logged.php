@@ -47,7 +47,7 @@
             <a href="#" class="nav-item nav-link">About us</a>
         </div>
         <div class="navbar-nav user-navbar-logged text-center">
-            <a href="#" class="mx-3"><i class="fas fa-user p-3"></i><?= $user['name'] .' '. $user['lastname'];?></a>
+            <a href="profile.php" class="mx-3"><i class="fas fa-user p-3"></i><?= $user['name'] .' '. $user['lastname'];?></a>
         </div>
     </div>
 </nav>

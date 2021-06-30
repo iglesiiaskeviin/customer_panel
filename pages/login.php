@@ -18,7 +18,7 @@
         $_SESSION['user_id'] = $results['id'];
         header("Location: user-logged.php");
       } else {
-        $message = 'Sorry, those credentials do not match';
+        $message = '<label class="text-danger">Sorry, those credentials do not match</label>';
       }
     }
 ?>
