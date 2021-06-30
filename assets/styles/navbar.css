@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #ccc;
+    box-shadow: 0 1.5px 0 0 #111;
+}
+
+.user-navbar-logged a{
+    font-size: large;
+    color: black;
+    font-style: none;
+    text-decoration: none;
+}
+
+.user-navbar-logged a:hover{
+    color: #4f4f4f;
+    transition: all .2s;
+}
+
+.navbar-co-img{
+    width: 100px;
+    height: 75px;
+}

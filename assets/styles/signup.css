@@ -1,0 +1,49 @@
+*{padding: 0 ; margin: 0;}
+
+/* ----- LOGIN FORM ----- */
+
+.section-login{
+  background-color: #ccc;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.company-logo-container{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1{
+  border: none;
+  outline: none;
+  background-color: #111;
+  color: white;
+  font-size: normal;
+  padding: 1.2rem;
+  width: 100%;
+  border-radius: 0.75vh;
+  font-weight: normal;
+}
+
+.btn1:hover{
+  background-color: #fff;
+  border: 1px solid black;
+  color: black;
+}
+
+.account-access-container a{
+  font-style: none;
+  color: black;
+}
+
+.account-access-container a:hover{
+  color: #404040;
+}
+
+/* ----- LOGIN FORM ----- */
