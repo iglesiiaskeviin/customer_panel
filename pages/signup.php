@@ -27,7 +27,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/styles/signup.css">
+    <link rel="stylesheet" href="../assets/styles/font.css">
     <!-- JQUERY -->
+    <script src="https://kit.fontawesome.com/07a1c5c4dc.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Login - Customer Panel</title>
   </head>
@@ -71,8 +73,8 @@
             </div>
             </form>
             <div class="row my-2 mb-3 account-access-container">
-              <p>¿Have a account?</p>
-              <span><a href="login.php">Login here</a></span>
+              <p class="fw-bold">¿Have a account?</p>
+              <span class="fw-bold"><a href="login.php"><i class="fas fa-arrow-right"></i> Login here</a></span>
             </div>
           </div>
         </div>

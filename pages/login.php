@@ -32,8 +32,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/styles/signup.css">
+    <link rel="stylesheet" href="../assets/styles/font.css">
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/07a1c5c4dc.js" crossorigin="anonymous"></script>
     <title>Login - Customer Panel</title>
   </head>
   <body>
@@ -63,13 +65,13 @@
               </div>
               <div class="form-row">
               <div class="col-lg-7">
-                <input type="submit" class="btn1 mt-3 mb-5" value="Login!">
+                <input type="submit" class="btn1 mt-3" value="Login!">
               </div>
             </div>
             </form>
-            <div class="row my-2 mb-3 account-access-container">
+            <div class="row my-2 mb-3 account-access-container fw-bold">
               <p>¿Don´t registered?</p>
-              <span><a href="signup.php">Create a account</a></span>
+              <span><a href="signup.php"><i class="fas fa-arrow-right"></i> Create a account</a></span>
             </div>
           </div>
         </div>
