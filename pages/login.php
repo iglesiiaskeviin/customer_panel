@@ -16,7 +16,7 @@
 
       if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
         $_SESSION['user_id'] = $results['id'];
-        header("Location: user-logged.php");
+        header("Location: ../components/navbar.php");
       } else {
         $message = '<label class="text-danger">Sorry, those credentials do not match</label>';
       }
@@ -69,11 +69,14 @@
               </div>
             </div>
             </form>
-            <div class="row my-2 mb-3 account-access-container fw-bold">
+            <div class="row my-2 mb-3 account-access-container fw-bold text-center">
               <p>¿Don´t registered?</p>
               <span><a href="signup.php"><i class="fas fa-arrow-right"></i> Create a account</a></span>
             </div>
           </div>
+        </div>
+        <div class="text-center">
+          <span class="fw-bold">&copy; 2021 - 2021 <div class="row"><a href="https://www.instagram.com/iglesiias_keviin/?hl=es-la">Kevin Iglesias</a></div></span>
         </div>
       </div>
     </section>

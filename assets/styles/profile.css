@@ -16,14 +16,6 @@
     min-width: 100%;
 }
 
-.profile-section{
-    background-color: #111;
-    border-right: 2.5px solid grey;
-}
-
-.profile-section img{
-    box-shadow: 3.5px 3.5px 5px 5px rgb(59, 59, 59, 0.35);
-}
 
 .card-profile-info{
     background-color: #111;
@@ -34,3 +26,8 @@
     margin-top: 1.2rem;
     color: red;
 }
+
+.btn1:hover{
+    color: black;
+}
+  
